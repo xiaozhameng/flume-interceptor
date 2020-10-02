@@ -57,7 +57,7 @@ public class LogETLInterceptor implements Interceptor {
 
     }
 
-    public class Builder implements Interceptor.Builder{
+    public static class Builder implements Interceptor.Builder{
 
         @Override
         public Interceptor build() {
